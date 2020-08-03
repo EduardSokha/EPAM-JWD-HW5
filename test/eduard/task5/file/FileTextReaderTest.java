@@ -1,14 +1,15 @@
-package test.kharitonov.day5.file;
-
-import by.kharitonov.day5.exception.TextProcessingException;
-import by.kharitonov.day5.file.FileTextReader;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Parameters;
-import org.testng.annotations.Test;
-import test.kharitonov.day5.type.TextProcessingData;
+package eduard.task5.file;
 
 import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.fail;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import by.sokhaeduard.fifthhw.task5.exception.TextProcessingException;
+import by.sokhaeduard.fifthhw.task5.file.FileTextReader;
+import eduard.task5.type.TextProcessingData;
 
 public class FileTextReaderTest {
     private final FileTextReader fileTextReader = new FileTextReader();

@@ -1,14 +1,15 @@
-package test.kharitonov.day5.console;
+package eduard.task5.console;
 
-import by.kharitonov.day5.console.ConsoleTextReader;
-import by.kharitonov.day5.exception.TextProcessingException;
-import org.testng.annotations.Test;
-import test.kharitonov.day5.type.TextProcessingData;
+import static org.testng.Assert.assertEquals;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 
-import static org.testng.Assert.assertEquals;
+import org.testng.annotations.Test;
+
+import by.sokhaeduard.fifthhw.task5.console.ConsoleTextReader;
+import by.sokhaeduard.fifthhw.task5.exception.TextProcessingException;
+import eduard.task5.type.TextProcessingData;
 
 public class ConsoleTextReaderTest {
     private final ConsoleTextReader consoleTextReader = new ConsoleTextReader();

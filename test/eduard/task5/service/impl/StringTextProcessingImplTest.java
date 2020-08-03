@@ -1,13 +1,14 @@
-package test.kharitonov.day5.service.impl;
+package eduard.task5.service.impl;
 
-import by.kharitonov.day5.exception.TextProcessingException;
-import by.kharitonov.day5.service.impl.StringTextProcessingImpl;
+import static org.testng.Assert.assertEquals;
+
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-import test.kharitonov.day5.type.TextProcessingData;
 
-import static org.testng.Assert.assertEquals;
+import by.sokhaeduard.fifthhw.task5.exception.TextProcessingException;
+import by.sokhaeduard.fifthhw.task5.service.impl.StringTextProcessingImpl;
+import eduard.task5.type.TextProcessingData;
 
 public class StringTextProcessingImplTest {
     private final StringTextProcessingImpl processor =
